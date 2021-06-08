@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarea 2 Formulario JS</title>
+	<script type="text/javascript" src="javascript.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body class="body">
+	<div class="contenedor">
+
+		<form class="Formulario" onsubmit="return mostrar();">
+		<div>
+			Nombre: <input type="text" id="nombre">
+		</div>
+		<hr>
+		<div>
+			Apellidos: <input type="text" id="apellidos">
+		</div>
+		<hr>
+		<div>
+		 	DNI: <input type="text" id="dni">
+		</div>		
+		<hr>
+		<div>
+		<select id="estado">
+			<option value="parado">Parado</option>
+			<option value="estudiante">Estudiante</option>
+			<option value="trabajando">Trabajando</option>
+		</select>
+		</div>
+		<hr>
+		<div>
+			<div>Deportes <input type="radio" name="hobby" value="deportes"></div>
+			<div>Leer <input type="radio" name="hobby" value="leer"></div>
+			<div>Viajar <input type="radio" name="hobby" value="viajar"></div>
+		</div>
+		<hr>
+		<div>
+			<label>Fecha de nacimiento</label>
+			<input type="date" id="nacimiento">
+		</div>
+		<hr>
+		<div>
+			<label>¿Aceptas las condiciones?</label>
+			<input type="checkbox" id="condiciones">
+		</div>
+		<hr>
+		<div class="btn1">
+			<button id="btn">GUARDAR</button>
+		</div>
+		<hr>
+		<div>
+			<textarea class="ocultar" rows="5" cols="37" id="resultado"></textarea>
+		</div>
+		<hr>
+
+	</form>
+		
+	</div>
+</body>
+</html>

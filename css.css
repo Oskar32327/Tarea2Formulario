@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.body{
+	background-color: lightgreen;
+}
+
+.contenedor{
+  	display: flex;
+  	margin : 10vh auto;
+	padding: 10px;
+	width: 318px;
+	border-style: solid;
+	background-color: lightblue;
+}
+.Formulario div{
+	padding: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.btn1{
+	display: flex;
+ 	justify-content: center;
+}
+
+.btn1 button{
+	background-color: Green;
+	padding:4px;
+}
+
+.ocultar{
+	 visibility: hidden;
+}
